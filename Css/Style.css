@@ -1,0 +1,11 @@
+.bg-color-navbar {
+  background-color: #3fa2fd;
+}
+/* .btn-navbar {
+  border-radius: 6px;
+  background-color: #428eff;
+} */
+.btn-iniciar-registrar {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
