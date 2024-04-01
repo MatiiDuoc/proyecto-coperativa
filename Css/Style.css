@@ -1,5 +1,10 @@
+:root {
+  --main-bg-color: #1183cf;
+  --nav-bg-color: #3fa2fd;
+}
+
 .bg-color-navbar {
-  background-color: #3fa2fd;
+  background-color: var(--nav-bg-color);
 }
 /* .btn-navbar {
   border-radius: 6px;
@@ -8,4 +13,32 @@
 .btn-iniciar-registrar {
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+.dropdown-color{
+  background-color:#3fa2fd;
+  color: white;
+  border-color: #1183cf;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.fa-microsoft {
+  background: conic-gradient(from -90deg, #F35325 90deg, #34a853 90deg 180deg, #fbbc05 180deg 270deg, #4285f4 270deg) 50% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
