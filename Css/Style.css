@@ -36,9 +36,34 @@ body {
     -webkit-text-fill-color: transparent;
 }
 .fa-microsoft {
-  background: conic-gradient(from -90deg, #F35325 90deg, #34a853 90deg 180deg, #fbbc05 180deg 270deg, #4285f4 270deg) 50% 55%/150% 150% no-repeat;
+  background: conic-gradient(from -90deg, #F35325 90deg, #81BC06 90deg 180deg, #FFBA08 180deg 270deg, #05A6F0 270deg) no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
+}
+
+.producto {
+  height: 480px;
+}
+
+.imagen-producto {
+  height: 480px;
+  width: 180px;
+}
+
+.carousel-text {
+  color: white;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.producto-info {
+  padding-top: 200px;
+}
+
+.none{
+  text-decoration: none;
 }
